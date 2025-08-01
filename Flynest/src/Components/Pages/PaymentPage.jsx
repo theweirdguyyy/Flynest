@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { pdf } from '@react-pdf/renderer';
+import InvoiceDocument from './InvoiceDocument';
 
 function PaymentPage() {
   const navigate = useNavigate();
@@ -36,7 +38,7 @@ function PaymentPage() {
       }));
   };
 
-  const handlePayment = () => {
+  const handlePayment = async () => {
     if (!paymentData.cardName || !paymentData.cardNumber || !paymentData.expiryDate || !paymentData.ccv) {
         alert('Please fill in all card details.');
         return;
@@ -51,6 +53,38 @@ function PaymentPage() {
         ...bookingDetails,
         paymentMethod: 'Card' // or derive from form
     };
+
+    // Derive invoice props from booking details
+    const invoiceProps = {
+      date: new Date().toLocaleDateString(),
+      location: bookingDetails?.location || '',
+      adults: bookingDetails?.adults ?? 0,
+      children: bookingDetails?.children ?? 0,
+      tourGuide: Number(bookingDetails?.tourGuide) || 0,
+      dinner: Number(bookingDetails?.dinner) || 0,
+      tax: Number(bookingDetails?.tax) || 0,
+      subTotal: Number(bookingDetails?.subtotal) || 0,
+      total: Number(bookingDetails?.total) || 0,
+      transport: bookingDetails?.transport || null,
+      restaurant: bookingDetails?.restaurant || null,
+      hotel: bookingDetails?.hotel || null
+    };
+
+    try {
+      // Generate PDF blob and trigger download
+      const blob = await pdf(<InvoiceDocument {...invoiceProps} />).toBlob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'invoice.pdf';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      console.error('Failed to generate invoice PDF', e);
+      // Continue navigation even if PDF generation fails
+    }
     
     navigate('/booking-confirmation', { state: { confirmationDetails: finalConfirmationData }});
   };

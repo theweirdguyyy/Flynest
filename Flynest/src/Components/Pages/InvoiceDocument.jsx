@@ -6,7 +6,6 @@ import {
     View,
     StyleSheet
 } from '@react-pdf/renderer';
-import { table } from 'framer-motion/client';
 
 const styles = StyleSheet.create({
   page: {
@@ -17,7 +16,7 @@ const styles = StyleSheet.create({
   },
   header: {
     fontSize: 22,
-    teztAlign: "center",
+    textAlign: "center",
     fontWeight: "bold",
     marginBottom: 5,
   },
@@ -96,7 +95,18 @@ const InvoiceDocument = (data) => {
         transport,
         restaurant,
         hotel
-    } = data;
+    } = data || {};
+
+    const fmtMoney = (v) => {
+      const num = typeof v === 'number' ? v : Number(v);
+      if (Number.isFinite(num)) return num.toFixed(2);
+      return '0.00';
+    };
+    const safeText = (v) => (v ?? '');
+    const safeInt = (v) => {
+      const n = Number(v);
+      return Number.isFinite(n) ? n : 0;
+    };
 
 
   return (
@@ -108,14 +118,14 @@ const InvoiceDocument = (data) => {
             Thank you for choosing FLYNEST. We make your journey unforgettable!
           </Text>
 
-          <view style={styles.info}>
+          <View style={styles.info}>
             <Text style={styles.label}>
               <Text style={styles.bold}>Date:</Text>{date}
             </Text>
             <Text style={styles.label}>
               <Text style={styles.bold}>Location:</Text>{location}
             </Text>
-          </view>
+          </View>
 
           <View style={styles.table}>
             <View style={styles.tableRow}>
@@ -125,58 +135,58 @@ const InvoiceDocument = (data) => {
 
             <View style={styles.tableRow}>
               <Text style={styles.tableCol}>Adults</Text>
-              <Text style={styles.tableColRight}>{adults}</Text>
+              <Text style={styles.tableColRight}>{safeInt(adults)}</Text>
             </View>
 
             <View style={styles.tableRow}>
               <Text style={styles.tableCol}>Children</Text>
-              <Text style={styles.tableColRight}>{children}</Text>
+              <Text style={styles.tableColRight}>{safeInt(children)}</Text>
             </View>
 
             <View style={styles.tableRow}>
               <Text style={styles.tableCol}>Tour Guide</Text>
-              <Text style={styles.tableColRight}>${tourGuide.toFixed(2)}</Text>
+              <Text style={styles.tableColRight}>${fmtMoney(tourGuide)}</Text>
             </View>
 
             <View style={styles.tableRow}>
               <Text style={styles.tableCol}>Dinner</Text>
-              <Text style={styles.tableColRight}>${dinner.toFixed(2)}</Text>
+              <Text style={styles.tableColRight}>${fmtMoney(dinner)}</Text>
             </View>
 
 
             {/* Optional Add-ons */}
             {transport?.title && (
               <View style={styles.tableRow}>
-                <Text style={styles.tableCol}>Transport - {transport.title}</Text>
-                <Text style={styles.tableColRight}>${transport.cost.toFixed(2)}</Text>
+                <Text style={styles.tableCol}>Transport - {safeText(transport.title)}</Text>
+                <Text style={styles.tableColRight}>${fmtMoney(transport?.cost)}</Text>
               </View>
             )}
             {restaurant?.title && (
               <View style={styles.tableRow}>
-                <Text style={styles.tableCol}>Restaurant - {restaurant.title}</Text>
-                <Text style={styles.tableColRight}>${restaurant.cost.toFixed(2)}</Text>
+                <Text style={styles.tableCol}>Restaurant - {safeText(restaurant.title)}</Text>
+                <Text style={styles.tableColRight}>${fmtMoney(restaurant?.cost)}</Text>
               </View>
             )}
             {hotel?.title && (
               <View style={styles.tableRow}>
-                <Text style={styles.tableCol}>Hotel - {hotel.title}</Text>
-                <Text style={styles.tableColRight}>${hotel.cost.toFixed(2)}</Text>
+                <Text style={styles.tableCol}>Hotel - {safeText(hotel.title)}</Text>
+                <Text style={styles.tableColRight}>${fmtMoney(hotel?.cost)}</Text>
               </View>
             )}
 
             <View style={styles.tableRow}>
                 <Text style={styles.tableCol}>Sub Total</Text>
-                <Text style={styles.tableColRight}>${subTotal.toFixed(2)}</Text>
+                <Text style={styles.tableColRight}>${fmtMoney(subTotal)}</Text>
             </View>
 
             <View style={styles.tableRow}>
                 <Text style={styles.tableCol}>VAT Tax</Text>
-                <Text style={styles.tableColRight}>${tax ? tax.toFixed(2) : '0.00'}</Text>
+                <Text style={styles.tableColRight}>${fmtMoney(tax)}</Text>
             </View>
 
             <View style={[styles.tableRow, styles.totalRow]}>
                 <Text style={styles.tableCol}>Total Amount</Text>
-                <Text style={styles.tableColRight}>${total.toFixed(2)}</Text>
+                <Text style={styles.tableColRight}>${fmtMoney(total)}</Text>
             </View>
           </View>
         </Page>
