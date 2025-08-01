@@ -1,0 +1,104 @@
+[
+    {
+        "id": 10,
+        "title": "Fast Food",
+        "location": "Bangkok, Thailand",
+        "price": 95,
+        "oldPrice": 120,
+        "rating": 4.7,
+        "reviews": 20,
+        "tag": "Popular",
+        "image": "/Images/restaurent1.png"
+    },
+    {
+        "id": 11,
+        "title": "Italian Cuisine",
+        "location": "Rome, Italy",
+        "price": 150,
+        "oldPrice": 200,
+        "rating": 4.9,
+        "reviews": 50,
+        "tag": "New",
+        "image": "/Images/restaurant2.png"
+    },
+    {
+        "id": 12,
+        "title": "Sushi Bar",
+        "location": "Tokyo, Japan",
+        "price": 110,
+        "oldPrice": 130,
+        "rating": 4.8,
+        "reviews": 35,
+        "tag": "Featured",
+        "image": "/Images/restaurant3.png"
+    },
+    {
+        "id": 13,
+        "title": "Seafood Delight",
+        "location": "Sydney, Australia",
+        "price": 175,
+        "oldPrice": 220,
+        "rating": 4.6,
+        "reviews": 18,
+        "tag": "Trending",
+        "image": "/Images/restaurant4.png"
+    },
+    
+    {
+        "id": 14,
+        "title": "Bistro & Cafe",
+        "location": "Paris, France",
+        "price": 85,
+        "oldPrice": 100,
+        "rating": 4.5,
+        "reviews": 25,
+        "tag": "Cozy",
+        "image": "/Images/restaurant5.png"
+    },
+    {
+        "id": 15,
+        "title": "SteakHouse",
+        "location": "Texas, USA",
+        "price": 120,
+        "oldPrice": 140,
+        "rating": 4.8,
+        "reviews": 30,
+        "tag": "Recommended",
+        "image": "/Images/restaurant6.png"
+    },
+    {
+        "id": 16,
+        "title": "Cafe House",
+        "location": "Berlin, Germany",
+        "price": 105,
+        "oldPrice": 125,
+        "rating": 4.4,
+        "reviews": 22,
+        "tag": "Friendly",
+        "image": "/Images/restaurant7.png"
+    },
+    
+    {
+        "id": 17,
+        "title": "Grand Dine",
+        "location": "Dubai, UAE",
+        "price": 210,
+        "oldPrice": 250,
+        "rating": 4.9,
+        "reviews": 40,
+        "tag": "Luxury",
+        "image": "/Images/restaurant8.png"
+    },
+    {
+        "id": 18,
+        "title": "Urban Grill",
+        "location": "New York, USA",
+        "price": 195,
+        "oldPrice": 230,
+        "rating": 4.7,
+        "reviews": 28,
+        "tag": "Luxury",
+        "image": "/Images/restaurant9.png"
+    }
+
+]
