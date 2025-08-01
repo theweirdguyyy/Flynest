@@ -88,3 +88,11 @@ You need to have Node.js and npm installed on your system.
     npm run dev
     ```
 2.  Open your browser and navigate to `http://localhost:5173` (or the port specified by your development server).
+
+## Screenshots
+
+*(Here, are the key screenshots from the project. For example:)*
+
+![Homepage](https://github.com/theweirdguyyy/Flynest/blob/main/Homepage.png)
+![Features Tour](https://github.com/theweirdguyyy/Flynest/blob/5b2530f9faa6aa838e10147bc1c80ab925f6cc01/Tours1.png)
+![Explore](https://github.com/theweirdguyyy/Flynest/blob/5b2530f9faa6aa838e10147bc1c80ab925f6cc01/Explore.png)
