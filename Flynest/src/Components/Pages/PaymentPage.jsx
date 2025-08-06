@@ -109,7 +109,7 @@ function PaymentPage() {
 
   return (
     <div className="payment-page-wrapper ">
-      <div className="container payment-pagepage-container">
+      <div className="container payment-pagepage-container container-responsive">
         <div className="cartpage-header my-4 ">
           <h2 className="cartpage-title">Place Your Order</h2>
           <p className="cartpage-breadcrumb">Home → Cart → Checkout → Payment</p>
@@ -122,13 +122,13 @@ function PaymentPage() {
         </div>
 
         <div className="payment-page bg-dark text-white ">
-          <div className="container payment-page-container">
-            <div className="row payment-page">
-              <div className="col-lg-8 cartpage-cart">
+          <div className="container payment-page-container container-responsive">
+            <div className="row payment-page g-3">
+              <div className="col-12 col-lg-8 cartpage-cart">
                 <div className="p-4 rounded shadow-sm bg-section-light">
                   <h4 className="text-warning mb-4">Payment Details</h4>
                   <div className="row">
-                    <div className="col-md-7">
+                    <div className="col-12 col-md-7">
                       <div className="p-3 bg-dark rounded shadow">
                         <h5 className="text-white mb-3">Card Payment</h5>
                         <div className="mb-3">
@@ -158,7 +158,7 @@ function PaymentPage() {
                         <button className="btn btn-warning w-100 mb-3" onClick={handlePayment}>Pay Now</button>
                       </div>
                     </div>
-                    <div className="col-md-5 bg-dark rounded mb-3 border border-secondary">
+                    <div className="col-12 col-md-5 bg-dark rounded mb-3 border border-secondary">
                       <div className="p-3 bg-dark rounded">
                         <h5 className="text-white mb-3">Order Review</h5>
                         <div className="d-flex justify-content-between py-2 border-bottom border-secondary">

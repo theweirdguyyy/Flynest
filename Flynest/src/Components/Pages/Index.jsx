@@ -108,9 +108,9 @@ function Index() {
                     </video>
 
                     <div className="hero-overlay text-white">
-                        <div className="container">
+                        <div className="container container-responsive">
                             <div className="row">
-                                <div className="col-xl-6">
+                                <div className="col-12 col-lg-8 col-xl-6">
                                     <h1 className="hero-title">Plan tours to dream<br /> locations in just a click!</h1>
                                     <p className='hero-description'>Travel is a transformative and enriching experience that allows individuals to explore new destinations, cultures and landscapes.</p>
 
@@ -129,9 +129,9 @@ function Index() {
                             </div>
                         </div>
 
-                        <div className="container w-100 travel-box p-4 bg-dark text-white rounded z-0">
-                            <div className="row align-items-center justify-content-between w-100 gap-4 gap-xl-0">
-                                <div className="col-xl-2 travel-info" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
+                        <div className="container container-responsive w-100 travel-box p-4 bg-dark text-white rounded z-0">
+                            <div className="row align-items-center justify-content-between w-100 gap-3">
+                                <div className="col-12 col-sm-6 col-lg-4 col-xl-2 travel-info border-end border-secondary-subtle" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
                                     <label className="form-label fw-semibold fs-5 text-white">
                                         <i className="bi bi-geo-alt-fill me-2 fs-6"></i>
                                         Destination
@@ -142,7 +142,7 @@ function Index() {
                                         <option>Istanbul, Turkey</option>
                                     </select>
                                 </div>
-                                <div className="col-xl-2 travel-info" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
+                                <div className="col-12 col-sm-6 col-lg-4 col-xl-2 travel-info border-end border-secondary-subtle" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
                                     <label className="form-label fw-semibold fs-5 text-white">
                                         <i className="bi bi-airplane me-2 fs-6"></i>
                                         Tour Type
@@ -153,7 +153,7 @@ function Index() {
                                         <option>Custom Package</option>
                                     </select>
                                 </div>
-                                <div className="col-xl-2 travel-info" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
+                                <div className="col-12 col-sm-6 col-lg-4 col-xl-2 travel-info border-end border-secondary-subtle" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
                                     <label className="form-label fw-semibold fs-5 text-white">
                                         <i className="bi bi-clock me-2 fs-6"></i>
                                         Date From
@@ -164,7 +164,7 @@ function Index() {
                                         className='form-control bg-dark text-white border-0'
                                     />
                                 </div>
-                                <div className="col-xl-2 travel-info" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
+                                <div className="col-12 col-sm-6 col-lg-4 col-xl-2 travel-info border-end border-secondary-subtle" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
 
                                     <label className="form-label fw-semibold fs-5 text-white">
                                         <i className="bi bi-person me-2 fs-6"></i>
@@ -177,8 +177,8 @@ function Index() {
                                         <option>04+</option>
                                     </select>
                                 </div>
-                                <div className="col-xl-2 travel-info" style={{ borderRight: '1px solid rgba(248, 250, 252, 0.08)' }}>
-                                    <button className='travel-btn py-3 px-5 fs-6 btn btn-primary fw-semibold' style={{ backgroundColor: '#f26f55', border: 'none', cursor: 'pointer' }}>
+                                <div className="col-12 col-sm-6 col-lg-4 col-xl-2 travel-info">
+                                    <button className='travel-btn py-3 px-5 fs-6 btn btn-primary fw-semibold w-100' style={{ backgroundColor: '#f26f55', border: 'none', cursor: 'pointer' }}>
                                         Search Plan
                                     </button>
                                 </div>
@@ -198,9 +198,9 @@ function Index() {
                         </div>
                     </div>
 
-                    <div className="container">
+                    <div className="container container-responsive">
                         <div className="row">
-                            <div className="col-lg-6 mb-4">
+                            <div className="col-12 col-lg-6 mb-4">
                                 <div className="banner-content z-1 py-5 px-4 rounded-3 banner-bg-1 text-white" >
                                     <p className="highlights-text">Save up to </p>
                                     <h4 className='fs-1 fw-semibold'>50%</h4>
@@ -212,7 +212,7 @@ function Index() {
                                     <button className="btn banner-btn px-4">Booking Now</button>
                                 </div>
                             </div>
-                            <div className="col-lg-6 mb-4">
+                            <div className="col-12 col-lg-6 mb-4">
                                 <div className="banner-content z-1 py-5 px-4 rounded-3 banner-bg-2 text-white" >
                                     {/* <p className="highlight-text">Nearby Hotel </p> */}
                                     <h4 className='fs-1 fw-semibold'>Nearby Hotel</h4>

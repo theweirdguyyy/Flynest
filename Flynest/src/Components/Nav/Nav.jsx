@@ -36,7 +36,7 @@ function Nav() {
     return (
         <>
             <nav className='text-white p-0 navbar navbar-expand-lg' style={{ backgroundColor: '#12151e' }}>
-                <div className="container d-flex align-items-center justify-content-center">
+                <div className="container container-responsive d-flex align-items-center justify-content-center">
                     {/* Change to single flex row */}
                     <div className="row w-100 py-3" style={{ borderBottom: '1px solid rgba(248, 250, 252, 0.08)' }}>
                         {/* Left section - Phone info */}
@@ -80,6 +80,8 @@ function Nav() {
                                     type="button"
                                     onClick={toggleMenu}
                                     aria-label="Toggle navigation"
+                                    aria-expanded={isMenuOpen}
+                                    aria-controls="primaryNav"
                                 >
                                     <span className="bi bi-list fs-1 text-white"></span>
                                 </button>
@@ -91,11 +93,11 @@ function Nav() {
 
 
 
-            <div className="container">
+            <div className="container container-responsive">
                 <div className="row py-0 py-lg-4 w-100  align-items-center">
-                    <div className="col-lg-9">
-                        <div className={`collapse navbar-collapse  show `} id='navtoggle'>
-                            <ul className="nav-menu  list-unstyled m-0 d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3 gap-xl-5 gap-lg-4">
+                    <div className="col-12 col-lg-9">
+                        <div className={`navbar-collapse ${isMenuOpen ? 'show' : 'collapse'} d-lg-block`} id='primaryNav'>
+                            <ul className="nav-menu list-unstyled m-0 d-flex flex-column flex-lg-row align-items-start align-items-lg-center gap-3 gap-xl-5 gap-lg-4">
                                 <li className="nav-items position-relative text-white ">
                                     <Link to="/" className='nav-link' onClick={closeMenu}>Home</Link>
                                 </li>
@@ -123,10 +125,10 @@ function Nav() {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-3">
-                        <div className="nav-input-box w-100 d-none d-lg-flex align-items-center justify-content-start gap-2">
-                            <i class="bi bi-search text-white"></i>
-                            <input type="text" className='form-control from-control-sm w-100' placeholder='Destinations, Attraction'></input>
+                    <div className="col-12 col-lg-3 mt-3 mt-lg-0">
+                        <div className="nav-input-box w-100 d-flex d-lg-flex align-items-center justify-content-start gap-2">
+                            <i className="bi bi-search text-white"></i>
+                            <input type="text" className='form-control form-control-sm w-100' placeholder='Destinations, Attraction' />
                         </div>
                     </div>
                 </div>
