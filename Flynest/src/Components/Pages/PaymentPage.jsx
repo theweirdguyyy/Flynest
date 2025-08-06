@@ -58,8 +58,26 @@ function PaymentPage() {
     const invoiceProps = {
       date: new Date().toLocaleDateString(),
       location: bookingDetails?.location || '',
-      adults: bookingDetails?.adults ?? 0,
-      children: bookingDetails?.children ?? 0,
+      adults:
+        Number(
+          bookingDetails?.adults ??
+          bookingDetails?.adult ??
+          bookingDetails?.numberOfAdults ??
+          bookingDetails?.guests?.adults ??
+          (Array.isArray(bookingDetails?.items)
+            ? bookingDetails.items.reduce((sum, it) => sum + Number(it?.adults ?? it?.adult ?? 0), 0)
+            : undefined)
+        ) || 0,
+      children:
+        Number(
+          bookingDetails?.children ??
+          bookingDetails?.child ??
+          bookingDetails?.numberOfChildren ??
+          bookingDetails?.guests?.children ??
+          (Array.isArray(bookingDetails?.items)
+            ? bookingDetails.items.reduce((sum, it) => sum + Number(it?.children ?? it?.child ?? 0), 0)
+            : undefined)
+        ) || 0,
       tourGuide: Number(bookingDetails?.tourGuide) || 0,
       dinner: Number(bookingDetails?.dinner) || 0,
       tax: Number(bookingDetails?.tax) || 0,
