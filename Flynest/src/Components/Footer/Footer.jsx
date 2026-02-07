@@ -24,6 +24,7 @@ function Footer() {
                               <li><a href="#" className='footer-link'><i className="ri-question-line"></i>FAQ</a></li>
                           </ul>
                       </div>
+                      {/* Database User: FlynestUser password: BcEBODoo9fVgmkVA */}
 
                       <div className="col-lg-3 col-md-6">
                           <h4 className='mb-3'>Quick Links</h4>

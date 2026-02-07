@@ -1,0 +1,890 @@
+[
+    {
+        "id": 19,
+        "title": "Boat Ride in Lago di Braies",
+        "location": "South Tyrol, Italy",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 113,
+        "rating": 4.9,
+        "reviews": 148,
+        "tag": "Featured",
+        "image": "/Images/image2.png",
+        "description": "Step into a postcard-perfect alpine dream with a serene boat ride across Lago di Braies (Pragser Wildsee), South Tyrol’s most iconic emerald lake. Nestled at the foot of the jagged Dolomites, this UNESCO World Heritage site dazzles with crystal-clear waters that mirror towering peaks and fragrant pine forests. Glide across the lake in a traditional wooden rowboat, and immerse yourself in the breathtaking scenery—a moment of pure magic. Whether you’re chasing stunning photography, a romantic escape, or simply the quiet joy of nature, a visit to this 'Pearl of the Dolomites' is an unforgettable experience.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & Lakeside Charm",
+        "description": "Upon arrival, settle into your charming alpine lodge in the Dolomites region, where a welcome drink awaits. Spend the afternoon taking a leisurely stroll along the scenic wooden path of Lago di Braies, capturing stunning photos at iconic spots like the Boathouse Pier and the quaint Chapel of Maria, all while soaking in the majestic mountain views. Conclude your day with an authentic Tyrolean dinner at a traditional rifugio or local restaurant, savoring regional specialties.",
+        "highlights": [
+          "Lakeside check-in & welcome",
+          "Scenic walk around Lago di Braies",
+          "Authentic Tyrolean dinner"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Lakeside Adventure & Panoramic Views",
+        "description": "After a hearty breakfast featuring local rye bread, honey, and alpine cheeses, choose between an early morning walk along a quieter part of the lake or simply relaxing by the water. The afternoon invites you to embark on a guided hike to a rewarding nearby viewpoint (such as one with views of Croda del Becco, a moderate 2.5-hour trek), offering jaw-dropping lake and valley panoramas, followed by a delightful picnic lunch. The day's highlight culminates with a private boat rental on Lago di Braies, allowing you approximately 45 minutes to an hour to row across the tranquil waters and admire the towering limestone cliffs.",
+        "highlights": [
+          "Choice of early morning lakeside activity",
+          "Summit hike with rewarding views",
+          "Private boat rental on Lago di Braies"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell in Alpine Bliss",
+        "description": "Begin your final day with a leisurely breakfast offering last glimpses of the mountains. Enjoy some free time for a relaxed walk by the lake or to explore a nearby nature trail. In the afternoon, visit a local artisanal brewery for a farewell tasting of South Tyrolean beers before your departure from this alpine paradise.",
+        "highlights": [
+          "Relaxed morning by the lake",
+          "Artisanal brewery visit and tasting"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 20,
+        "title": "Train Journey through Ella",
+        "location": "Ella, Sri Lanka",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 81,
+        "rating": 4.8,
+        "reviews": 95,
+        "tag": "Featured",
+        "image": "/Images/image1.jpeg",
+        "description": "Step aboard what is often hailed as one of the most breathtaking railway journeys on the planet. This is more than just a train ride; it's a passage through the very soul of Sri Lanka's emerald heartland. As the train gently sways from Kandy, the last royal capital, towards the bohemian mountain village of Ella, you'll be mesmerized by a world unfolding outside your window. The tracks carve a path through a dreamscape of misty mountains that seem to touch the sky, past cascading waterfalls that thunder into hidden pools, and alongside an endless tapestry of vibrant green tea plantations. Here, colorfully clad tea pluckers move with a rhythmic grace, their baskets filling with the world-renowned Ceylon tea. Feel the cool, crisp mountain air on your face as you lean out of the iconic blue train's open doorways, capturing postcard-perfect moments of verdant valleys, charming traditional villages, and the iconic Nine Arches Bridge. This is an unforgettable adventure that etches itself into your memory long after the journey ends.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival in Kandy",
+        "description": "Arrive in the cultural capital of Kandy, a city nestled around a serene, picturesque lake. You'll visit the venerated Temple of the Sacred Tooth Relic, a UNESCO World Heritage site that houses a sacred relic of the Buddha. In the evening, immerse yourself in the vibrant local culture with a captivating traditional dance performance. Your stay for the night will be in a charming colonial-era hotel, echoing the island's rich history.",
+        "highlights": [
+          "A scenic and relaxing drive around the beautiful Kandy Lake.",
+          "An evening of vibrant Kandyan cultural dance and drumming.",
+          " Strolling through Kandy's bustling city center and local markets."
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "The Iconic Train Ride",
+        "description": "Today is the day for the main event. Board the morning train for the spectacular journey to Ella. Settle in for a ride that will take you through some of the most stunning landscapes in Sri Lanka, passing by lush tea estates, dense forests, and over the architectural marvel of the Nine Arches Bridge. Upon arrival in Ella, embark on an afternoon hike to the summit of Little Adam’s Peak to witness a truly unforgettable sunset over the rolling hills.",
+        "highlights": [
+          "The iconic train ride through Sri Lanka's tea country.",
+          "A rewarding hike up Little Adam’s Peak for panoramic sunset views.",
+          "Photo opportunities at the world-famous Nine Arches Bridge."
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "Spend your final morning exploring the laid-back charm of Ella. Browse the town's unique cafes, artisan craft shops, and vibrant local markets, picking up souvenirs and savoring a final cup of local tea before your departure.",
+        "highlights": [
+          "A visit to a local market to see fresh, exotic produce.",
+          "Enjoying a delicious Sri Lankan breakfast at a trendy Ella cafe.",
+          "Shopping for unique handmade crafts and souvenirs.",
+          "A final, breathtaking view of the Ella Gap from a scenic viewpoint."
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 21,
+        "title": "Vernazza Coastal Village",
+        "location": "Cinque Terre, Italy",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 118,
+        "rating": 4.9,
+        "reviews": 132,
+        "tag": "Featured",
+        "image": "/Images/image3.png",
+        "description": "Escape to a world where time seems to slow down in Vernazza, the glittering jewel of Italy’s Cinque Terre. This enchanting, car-free village is a vibrant cascade of pastel-colored houses tumbling down a cliffside to a sparkling turquoise harbor. Lose yourself in the labyrinth of narrow cobblestone streets, discovering hidden alleyways and breathtaking viewpoints at every turn. Plunge into the refreshing, crystalline waters of the Ligurian Sea from the bustling harbor, or simply bask in the Mediterranean sun. Indulge your senses with the authentic taste of the region, savoring freshly made pesto pasta, a local specialty, perfectly paired with a crisp glass of regional wine. For the adventurous, cliffside hiking trails offer unparalleled vistas of the dramatic coastline, while the romantic sunsets paint the sky in hues of orange and pink, creating an atmosphere that truly redefines romance.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & Exploration",
+        "description": "Arrive in Vernazza and check into your charming seaside guesthouse, where the sound of the waves will be your lullaby. Spend the afternoon exploring the picturesque harbor, watching the fishing boats bob in the water. As evening descends, dine at a traditional trattoria, savoring the catch of the day.",
+        "highlights": [
+          "A refreshing swim in the vibrant and historic harbor.",
+          "A delectable seafood dinner at a family-run trattoria.",
+          " Exploring the ruins of Doria Castle for panoramic village views.",
+          "Getting lost in the maze of charming, narrow alleyways."
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Coastal Hike & Wine Tasting",
+        "description": "Embark on a breathtaking hike along the famed Sentiero Azzurro (Blue Trail) to the neighboring village of Monterosso. The trail offers stunning, cliffside views of the turquoise ocean below. In the afternoon, reward your efforts with a tour of a local vineyard, learning about the unique terroir and tasting the exquisite wines as you watch the sunset",
+        "highlights": [
+          "A spectacular hike on the cliffside trail with endless ocean views.",
+          "An intimate wine tasting experience at a local vineyard at sunset.",
+          "Discovering the unique character of Monterosso, the largest of the five villages.",
+          "Enjoying a delightful picnic with local produce along the trail."
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Boat Tour ",
+        "description": "Experience the Cinque Terre from a different perspective with a morning boat tour. Discover hidden coves and sea caves that are inaccessible from land. Enjoy some leisure time for a final swim or souvenir shopping before your departure.",
+        "highlights": [
+          "A private boat excursion to explore hidden caves and grottos.",
+          "Swimming in secluded coves with crystal-clear water.",
+          "Capturing stunning photographs of the colorful villages from the sea.",
+          "Enjoying a final, delicious gelato by the harbor."
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 22,
+        "title": "Sunset with Horses",
+        "location": "Carpathian Mountains, Romania",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 87,
+        "rating": 4.6,
+        "reviews": 76,
+        "tag": "Featured",
+        "image": "/Images/image4.png",
+        "description": "Experience the untamed spirit of the American West on a horseback ride through the golden meadows of Wyoming’s Grand Teton foothills. As the sun begins its descent, casting a warm, golden glow over the landscape, you'll be guided by authentic cowboys through this serene and majestic wilderness. This is an experience that seamlessly blends thrilling adventure with profound tranquility. The gentle rhythm of your horse's gait, the vast, open skies, and the silhouette of the jagged Teton Range create a moment of pure magic. The adventure culminates with a traditional campfire cookout, where you'll savor a hearty meal under a blanket of twinkling stars, sharing stories and creating memories that will last a lifetime.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Ranch Arrival",
+        "description": "Arrive at the ranch and settle into your cozy, rustic cabin, your home away from home in the Wild West. In the evening, enjoy a welcoming Western-style BBQ and get to know your fellow travelers. As night falls, step outside for some unparalleled stargazing in the clear mountain air.",
+        "highlights": [
+          "A hearty and authentic Western-style welcome dinner.",
+          "Meeting the wranglers and your horse for the next day's ride.",
+          "Breathtaking, unobstructed stargazing far from city lights.",
+          "Relaxing by a crackling fireplace in your rustic cabin."
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Sunset Ride",
+        "description": "Start your day with a morning trail ride, exploring the scenic beauty of the ranch. The afternoon is yours to relax and enjoy the peaceful surroundings. Then, get ready for the iconic sunset session—a two-hour horseback ride through the stunning landscape as the sun paints the sky.",
+        "highlights": [
+          "A magnificent 2-hour sunset horseback ride.",
+          "A delicious campfire cookout dinner under the stars.",
+          "Learning basic horsemanship skills from experienced cowboys."
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "Wake up to the fresh mountain air and enjoy a hearty ranch breakfast before you depart, filled with the spirit of the West.",
+        "highlights": [
+          "A delicious, hearty, and home-cooked ranch breakfast.",
+          "A final photo opportunity with your horse and the wranglers.",
+          "Soaking in the last peaceful moments of the ranch atmosphere.cd"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 23,
+        "title": "Montserrat Rocky Peaks",
+        "location": "Catalonia, Spain",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 102,
+        "rating": 4.5,
+        "reviews": 83,
+        "tag": "Featured",
+        "image": "/Images/image5.png",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 24,
+        "title": "Explore Thailand by Boat",
+        "location": "Khao Sok, Thailand",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 89,
+        "rating": 4.8,
+        "reviews": 102,
+        "tag": "Featured",
+        "image": "/Images/image6.png",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 25,
+        "title": "Hidden Beach Escape",
+        "location": "Lycian Coast, Turkey",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 120,
+        "rating": 4.9,
+        "reviews": 54,
+        "tag": "Featured",
+        "image": "/Images/image7.png",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 26,
+        "title": "Retro Van Roadtrip",
+        "location": "Sahyadri Hills, India",
+        "duration": "2 Days 1 Night",
+        "persons": "2 Persons",
+        "price": 93,
+        "rating": 4.5,
+        "reviews": 37,
+        "tag": "Featured",
+        "image": "/Images/image8.jpeg",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 27,
+        "title": "Modern Cozy Living Room with Neutral Decor",
+        "location": "Thonglor, Bangkok",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 250,
+        "rating": 3.7,
+        "reviews": 10,
+        "tag": "Featured",
+        "image": "/Images/image9.jpeg",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 28,
+        "title": "Elegant Dining Space with Ambient Lighting",
+        "location": "Sathorn, Bangkok",
+        "duration": "4 Days 3 Nights",
+        "persons": "1 Person",
+        "price": 100,
+        "rating": 2,
+        "reviews": 12,
+        "tag": "Featured",
+        "image": "/Images/image10.jpeg",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 29,
+        "title": "Spacious Minimalist Bedroom Interior",
+        "location": "Ari, Bangkok",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 100,
+        "rating": 4.7,
+        "reviews": 20,
+        "tag": "Featured",
+        "image": "/Images/image11.jpeg",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 30,
+        "title": "Contemporary Kitchen with Marble Finishes",
+        "location": "Ekkamai, Bangkok",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 97,
+        "rating": 4.7,
+        "reviews": 20,
+        "tag": "Featured",
+        "image": "/Images/image12.jpeg",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 31,
+        "title": "Kayaking in the Rockies",
+        "location": "Moraine Lake, Canada",
+        "duration": "3 Days 2 Nights",
+        "persons": "1 Person",
+        "price": 115,
+        "rating": 4.8,
+        "reviews": 42,
+        "tag": "Featured",
+        "image": "/Images/image13.jpeg",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 32,
+        "title": "Sunset Paddle Adventure",
+        "location": "Maui, Hawaii",
+        "duration": "1 Day",
+        "persons": "1 Person",
+        "price": 84,
+        "rating": 4.9,
+        "reviews": 68,
+        "tag": "Featured",
+        "image": "/Images/image14.png",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  },
+    {
+        "id": 33,
+        "title": "Stylish Home Office with Natural Light",
+        "location": "Silom, Bangkok",
+        "duration": "3 Days 2 Nights",
+        "persons": "2 Persons",
+        "price": 100,
+        "rating": 4.7,
+        "reviews": 20,
+        "tag": "Featured",
+        "description": "Embark on an unforgettable train journey through the breathtaking landscapes of Ella, Sri Lanka, often hailed as one of the most beautiful rail routes in the world. As the train winds through misty mountains, lush tea plantations, and cascading waterfalls, you’ll be captivated by the panoramic views that unfold outside your window. This iconic ride offers a mesmerizing glimpse into Sri Lanka’s hill country, where emerald-green valleys and terraced tea estates stretch as far as the eye can see.",
+    "included": [
+      "Welcome Breakfast",
+      "All Entry Tickets",
+      "Lunch & Dinner",
+      "Evening Snacks",
+      "Professional Guide",
+      "First Aid Kit"
+    ],
+    "excluded": [
+      "Personal Expenses",
+      "Any unmentioned activities",
+      "Additional Services or private tours"
+    ],
+    "tourPlan": [
+      {
+        "day": "Day 1",
+        "title": "Arrival & First Glimpse of Paradise",
+        "description": "Begin your adventure in the breathtaking South Tyrol, where the majestic Dolomites meet the shimmering waters of Lago di Braies. After settling into your charming lakeside accommodation, take a moment to breathe in the crisp alpine air. Enjoy a welcome breakfast featuring local cheeses, freshly baked bread, and aromatic coffee—fuel for the day ahead. As the sun begins to dip, take a leisurely walk along the lake’s iconic wooden pier, where the turquoise waters mirror the surrounding peaks. End your evening with a quiet moment by the shore, listening to the gentle lapping of the waves under a star-studded sky.",
+        "highlights": [
+          "Lakeside check-in & welcome breakfast",
+          "Sunset stroll around Lago di Braies",
+          "Unwind in a cozy alpine lodge"
+        ]
+      },
+      {
+        "day": "Day 2",
+        "title": "Adventure & Serenity on the Water",
+        "description": "Wake up to the sight of mist rising over the lake—a photographer’s dream. After a hearty breakfast, embark on a guided hike through lush forests and alpine meadows, where wildflowers dot the landscape. Your guide will lead you to hidden viewpoints perfect for snapping postcard-worthy shots. Return to the lake for a picnic lunch with local cured meats, fresh bread, and a glass of South Tyrolean wine. Then, the highlight of your day: a private boat ride across the crystal-clear waters. Glide past towering cliffs and emerald-green shallows, learning about the lake’s legends from your guide. As night falls, gather around a rustic wooden table at a nearby mountain hut for a feast of dumplings, speck, and apple strudel.",
+        "highlights": [
+          "Scenic hike with panoramic Dolomite views",
+          "Private boat ride on Lago di Braies",
+          "Authentic dinner in a traditional alpine hut"
+        ]
+      },
+      {
+        "day": "Day 3",
+        "title": "Farewell & Lasting Memories",
+        "description": "If you’re an early riser, don’t miss the chance to witness the sunrise over the lake—a surreal spectacle of golden light spilling over the mountains. For those who prefer a slower start, enjoy a final lakeside breakfast before one last paddle on the tranquil waters. Take your time soaking in the beauty of the surroundings, perhaps picking up a handmade souvenir from a local artisan. As you depart, you’ll carry not just photos, but the lingering peace of this alpine paradise.",
+        "highlights": [
+          "Optional sunrise paddle or relaxed breakfast",
+          "Free time for last-minute exploration",
+          "Scenic drive back through the Dolomites"
+        ]
+      }
+    ],
+    "policy": "Our cancellation policy allows for a full refund if canceled at least 72 hours before the tour start time. Cancellations made within 72 hours are non-refundable. All participants must have valid travel insurance."
+  }
+]

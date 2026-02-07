@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -7,9 +7,8 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import { CartContext } from '../../Context/CartContext';
-import tourData from '../../Data/Tours.json';
 
-// Dummy images for the slider as before
+// Keep your image imports
 import img1 from '../../../public/Images/image14.png';
 import img2 from '../../../public/Images/image10.jpeg';
 import img3 from '../../../public/Images/image8.jpeg';
@@ -19,25 +18,43 @@ function TourDetail() {
     const { id } = useParams();
     const navigate = useNavigate();
     const { addToCart } = useContext(CartContext);
+    
+    const [tour, setTour] = useState(null);
+    const [loading, setLoading] = useState(true);
 
-    // Find the tour from the JSON data
-    const tour = tourData.find((t) => String(t.id) === id);
+    // --- PHASE 6: FETCH SINGLE TOUR BY ID ---
+    useEffect(() => {
+        const fetchTourDetails = async () => {
+            try {
+                // Note: We are calling your new backend route
+                const response = await fetch(`http://localhost:5000/api/tours/${id}`);
+                const data = await response.json();
+                setTour(data);
+                setLoading(false);
+            } catch (error) {
+                console.error("Error fetching tour details:", error);
+                setLoading(false);
+            }
+        };
 
-    // Handle case where tour is not found
+        fetchTourDetails();
+    }, [id]);
+
+    const handleAddToCart = (tour) => {
+        addToCart({ ...tour, quantity: 1 });
+        toast.success('Tour added to cart!');
+    };
+
+    if (loading) return <div className="text-center py-5 text-white">Loading details...</div>;
+    
     if (!tour) {
         return (
             <div className="container text-center py-5 text-white">
                 <h2>Tour Not Found</h2>
-                <p>The tour you are looking for does not exist.</p>
                 <button onClick={() => navigate('/tours')} className="btn btn-primary">Back to Tours</button>
             </div>
         );
     }
-    
-    const handleAddToCart = (selectedTour) => {
-        addToCart(selectedTour);
-        toast.success(`${selectedTour.title} added to your cart!`);
-    };
 
     return (
         <>

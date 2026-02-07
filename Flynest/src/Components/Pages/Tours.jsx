@@ -5,14 +5,29 @@ import { Link } from 'react-router-dom'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
+
 function Tours() {
 
     const [tours, setTours] = useState([]);
     const [visibleCount, setVisibleCount] = useState(6);
+    const [loading, setLoading] = useState(true);
     const { cartItems, addToCart } = useContext(CartContext);
 
     useEffect(() => {
-        setTours(tourData);
+        const fetchTours = async () => {
+            try {
+                const response = await fetch('http://localhost:5000/api/tours/all');
+                const data = await response.json();
+                setTours(data);
+                setLoading(false);
+            } catch (error) {
+                console.error("Error fetching tours:", error);
+                toast.error("Failed to load tours from server");
+                setLoading(false);
+            }
+        };
+
+        fetchTours();
     }, []);
 
 
