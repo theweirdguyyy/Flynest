@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const Tour = require('./models/tour'); // Path to your Tour model
+const Tour = require('./models/Tour'); // Path to your Tour model
 const tours = require('./data/Tours.json'); // Path to the JSON copy
 
 dotenv.config();

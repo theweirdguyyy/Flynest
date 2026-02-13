@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Tour = require('../models/tour');
+const Tour = require('../models/Tour');
 
 // Get all tours
 router.get('/all', async (req, res) => {
