@@ -24,6 +24,8 @@ const connectDB = async () => {
 
 connectDB();
 
+//ggg
+
 // --- THE MISSING PART: LINK YOUR ROUTES ---
 // This imports the file you created in Phase 5
 const tourRoutes = require('./routes/tourRoutes'); 
