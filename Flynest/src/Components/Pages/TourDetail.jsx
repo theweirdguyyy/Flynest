@@ -27,7 +27,7 @@ function TourDetail() {
         const fetchTourDetails = async () => {
             try {
                 // Note: We are calling your new backend route
-                const response = await fetch(`http://localhost:5000/api/tours/${id}`);
+                const response = await fetch(`/api/tours/${id}`);
                 const data = await response.json();
                 setTour(data);
                 setLoading(false);

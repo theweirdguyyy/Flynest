@@ -12,7 +12,7 @@ import BookingConfirmation from './Components/Pages/Tour_Booking_Summery';
 import Tours from './Components/Pages/Tours';
 import Hotels from './Components/Pages/Hotels';
 import Transports from './Components/Pages/Transports';
-import Restaurants from './Components/Pages/Restaurents';
+import Restaurants from './Components/Pages/Restaurants';
 import About from './Components/Pages/About';
 import BlogSection from './Components/Pages/Blog';
 import ContactSection from './Components/Pages/Contact';
