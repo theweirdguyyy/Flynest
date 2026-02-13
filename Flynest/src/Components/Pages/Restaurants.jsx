@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { CartContext } from '../../Context/CartContext'
 import restaurantData from '../../Data/Restaurant.json'
 // import { Link } from 'react-router-dom'
@@ -6,15 +6,16 @@ import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 function Restaurants() {
-    const { cartItems, addToCart } = useContext(CartContext); // Destructure cartItems from context
+    const { cartItems, addToCart } = useContext(CartContext);
+    const [isFilterOpen, setIsFilterOpen] = useState(false); // Mobile filter toggle state
 
     const handleBookTable = (item) => {
-        const alreadyExists = cartItems.find(cartItems => cartItems.id === item.id);
+        const alreadyExists = cartItems.find(cartItem => cartItem.id === item.id);
 
-        if (alreadyExists) { // Correct: if alreadyExists is truthy (item IS in cart)
+        if (alreadyExists) {
             toast.info("Item already in cart!");
-        } else { // Correct: if alreadyExists is falsy (item is NOT in cart)
-            addToCart({...item, quantity: 1 });
+        } else {
+            addToCart({ ...item, quantity: 1 });
             toast.success("Table added to cart!");
         }
     };
@@ -22,11 +23,24 @@ function Restaurants() {
     return (
         <>
             <div className="main-wrapper">
-                <ToastContainer />
+                <ToastContainer position="top-right" autoClose={2500} theme='dark' />
 
-                <div className="container">
+                <div className="container mt-4">
+                    {/* Mobile Filter Toggle Button */}
+                    <div className="d-lg-none mb-3">
+                        <button 
+                            className="btn btn-dark w-100 d-flex justify-content-between align-items-center py-2" 
+                            onClick={() => setIsFilterOpen(!isFilterOpen)}
+                            style={{ backgroundColor: '#12151e', border: '1px solid rgba(248, 250, 252, 0.2)' }}
+                        >
+                            <span><i className="ri-filter-3-fill me-2 text-orange"></i> Advanced Filter</span>
+                            <i className={`ri-arrow-${isFilterOpen ? 'up' : 'down'}-s-line`}></i>
+                        </button>
+                    </div>
+
                     <div className="row">
-                        <div className="col-lg-3 mb-4">
+                        {/* Filter Sidebar - Responsive Hide/Show */}
+                        <div className={`col-lg-3 mb-4 ${isFilterOpen ? 'd-block' : 'd-none'} d-lg-block`}>
                             <div className="filter-sidebar shadow-sm">
                                 <h5 className='fw-bold mb-4 d-flex align-items-center'>
                                     <i className="ri-filter-3-fill me-2 text-secondary"></i>
@@ -45,30 +59,31 @@ function Restaurants() {
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-flight-takeoff-line me-2"></i>Tour Type</legend>
+                                    <legend><i className="ri-restaurant-2-line me-2"></i>Cuisine Type</legend>
                                     <select className='form-select'>
                                         <option value="">Select Type</option>
-                                        <option>Adventure</option>
-                                        <option>Relaxation</option>
-                                        <option>Cultural</option>
+                                        <option>Fine Dining</option>
+                                        <option>Street Food</option>
+                                        <option>Cafe</option>
+                                        <option>Traditional</option>
                                     </select>
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-calendar-event-line me-2"></i>Date Form</legend>
+                                    <legend><i className="ri-calendar-event-line me-2"></i>Reservation Date</legend>
                                     <input type="date" className='form-control' />
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-user-smile-line me-2"></i>Guests</legend>
-                                    <input type="number" className='form-control' placeholder='number of Guest' min={1} />
+                                    <legend><i className="ri-user-smile-line me-2"></i>Table Size</legend>
+                                    <input type="number" className='form-control' placeholder='Number of Guests' min={1} />
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-star-smile-line me-2"></i>Traveler Rating</legend>
+                                    <legend><i className="ri-star-smile-line me-2"></i>Rating</legend>
                                     <div className='d-flex flex-wrap gap-2'>
                                         {[1, 2, 3, 4, 5].map((star) => (
-                                            <span key={star} className='rating-badge'>
+                                            <span key={star} className='rating-badge' style={{cursor: 'pointer'}}>
                                                 <i className="ri-star-fill text-warning me-1"></i>
                                                 {star}
                                             </span>
@@ -80,26 +95,35 @@ function Restaurants() {
                                     <legend><i className="ri-price-tag-3-line me-2"></i>Special Offers</legend>
                                     <div className="form-check">
                                         <input type="checkbox" id='likely' className='form-check-input' />
-                                        <label htmlFor="likely" className='form-check-label'>Likely to Sell Out</label>
+                                        <label htmlFor="likely" className='form-check-label text-white'>Happy Hour</label>
                                     </div>
                                     <div className="form-check">
                                         <input type="checkbox" id='discount' className='form-check-input' />
-                                        <label htmlFor="discount" className='form-check-label'>Winter Discount</label>
+                                        <label htmlFor="discount" className='form-check-label text-white'>Group Discount</label>
                                     </div>
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-translate-2-line me-2"></i>Languages</legend>
+                                    <legend><i className="ri-translate-2-line me-2"></i>Staff Languages</legend>
                                     {["English", "Spanish", "French", "Bangla"].map((lang, i) => (
                                         <div className="form-check" key={i}>
                                             <input type="checkbox" className='form-check-input' id={lang} />
-                                            <label htmlFor={lang} className='form-check-label'>{lang}</label>
+                                            <label htmlFor={lang} className='form-check-label text-white'>{lang}</label>
                                         </div>
                                     ))}
                                 </fieldset>
+
+                                {/* Mobile Close/Apply Button */}
+                                <button 
+                                    className="btn btn-primary w-100 d-lg-none mt-3" 
+                                    onClick={() => setIsFilterOpen(false)}
+                                >
+                                    Apply Filters
+                                </button>
                             </div>
                         </div>
 
+                        {/* Restaurants Grid */}
                         <div className="col-lg-9">
                             <div className="row">
                                 {restaurantData.map((item) => (
@@ -142,7 +166,7 @@ function Restaurants() {
                                     </div>
                                 ))}
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -151,3 +175,4 @@ function Restaurants() {
 }
 
 export default Restaurants;
+

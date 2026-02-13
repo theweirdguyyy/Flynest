@@ -152,6 +152,8 @@ body {
     color: var(--secondary-color);
 }
 
+
+
 .section-title h2{
     font-size: 2.5rem;
     color: var(--white-color);
@@ -271,6 +273,54 @@ body {
 
 
 
+
+@media (max-width: 991.98px) {
+    /* The side menu container */
+    .side-menu {
+        position: fixed;
+        top: 0;
+        right: -100%; /* Hidden off-screen to the right */
+        width: 280px;
+        height: 100vh;
+        background-color: #12151e;
+        z-index: 2000;
+        transition: right 0.4s ease-in-out;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.5);
+    }
+
+    /* When the menu is open */
+    .side-menu.open {
+        right: 0;
+    }
+
+    /* Dimmed background overlay */
+    .menu-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1500;
+    }
+
+    .nav-menu li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+}
+
+/* Ensure desktop remains unaffected */
+@media (min-width: 992px) {
+    .side-menu {
+        display: block !important;
+        position: static;
+        width: auto;
+        height: auto;
+        background: transparent;
+        box-shadow: none;
+    }
+}
 
 
 

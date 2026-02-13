@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { CartContext } from '../../Context/CartContext'
 import transportData from '../../Data/Transport.json'
 // import { Link } from 'react-router-dom'
@@ -6,27 +6,41 @@ import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 function Transports() {
-    const { cartItems, addToCart } = useContext(CartContext); // Destructure cartItems from context
+    const { cartItems, addToCart } = useContext(CartContext);
+    const [isFilterOpen, setIsFilterOpen] = useState(false); // Mobile filter toggle state
 
     const handleBookNow = (vehicle) => {
         const alreadyExists = cartItems.find(item => item.id === vehicle.id);
 
-        if (alreadyExists) { // Correct: if alreadyExists is truthy (item IS in cart)
+        if (alreadyExists) {
             toast.info("Item already in cart!");
-        } else { // Correct: if alreadyExists is falsy (item is NOT in cart)
-            addToCart({...vehicle, quantity: 1 });
-            toast.success("Item added to cart!");
+        } else {
+            addToCart({ ...vehicle, quantity: 1 });
+            toast.success("Vehicle added to cart!");
         }
     };
 
     return (
         <>
             <div className="main-wrapper">
-                <ToastContainer />
+                <ToastContainer position="top-right" autoClose={2500} theme='dark' />
 
-                <div className="container">
+                <div className="container mt-4">
+                    {/* Mobile Filter Toggle Button */}
+                    <div className="d-lg-none mb-3">
+                        <button 
+                            className="btn btn-dark w-100 d-flex justify-content-between align-items-center py-2" 
+                            onClick={() => setIsFilterOpen(!isFilterOpen)}
+                            style={{ backgroundColor: '#12151e', border: '1px solid rgba(248, 250, 252, 0.2)' }}
+                        >
+                            <span><i className="ri-filter-3-fill me-2 text-orange"></i> Filter Vehicles</span>
+                            <i className={`ri-arrow-${isFilterOpen ? 'up' : 'down'}-s-line`}></i>
+                        </button>
+                    </div>
+
                     <div className="row">
-                        <div className="col-lg-3 mb-4">
+                        {/* Filter Sidebar - Responsive Hide/Show */}
+                        <div className={`col-lg-3 mb-4 ${isFilterOpen ? 'd-block' : 'd-none'} d-lg-block`}>
                             <div className="filter-sidebar shadow-sm">
                                 <h5 className='fw-bold mb-4 d-flex align-items-center'>
                                     <i className="ri-filter-3-fill me-2 text-secondary"></i>
@@ -34,72 +48,69 @@ function Transports() {
                                 </h5>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-map-pin-line me-2"></i>Destination</legend>
+                                    <legend><i className="ri-map-pin-line me-2"></i>Pickup Location</legend>
                                     <select className='form-select'>
-                                        <option value="">Select Destination</option>
-                                        <option>USA</option>
-                                        <option>Turkey</option>
-                                        <option>Switzerland</option>
-                                        <option>Bora Bora</option>
+                                        <option value="">Select Location</option>
+                                        <option>Airport</option>
+                                        <option>City Center</option>
+                                        <option>Hotel Transfer</option>
                                     </select>
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-flight-takeoff-line me-2"></i>Tour Type</legend>
+                                    <legend><i className="ri-car-line me-2"></i>Vehicle Type</legend>
                                     <select className='form-select'>
                                         <option value="">Select Type</option>
-                                        <option>Adventure</option>
-                                        <option>Relaxation</option>
-                                        <option>Cultural</option>
+                                        <option>Sedan</option>
+                                        <option>SUV</option>
+                                        <option>Luxury</option>
+                                        <option>Van</option>
                                     </select>
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-calendar-event-line me-2"></i>Date Form</legend>
+                                    <legend><i className="ri-calendar-event-line me-2"></i>Pickup Date</legend>
                                     <input type="date" className='form-control' />
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-user-smile-line me-2"></i>Guests</legend>
-                                    <input type="number" className='form-control' placeholder='number of Guest' min={1} />
+                                    <legend><i className="ri-user-smile-line me-2"></i>Passengers</legend>
+                                    <input type="number" className='form-control' placeholder='Number of Guests' min={1} />
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-star-smile-line me-2"></i>Traveler Rating</legend>
-                                    <div className='d-flex flex-wrap gap-2'>
-                                        {[1, 2, 3, 4, 5].map((star) => (
-                                            <span key={star} className='rating-badge'>
-                                                <i className="ri-star-fill text-warning me-1"></i>
-                                                {star}
-                                            </span>
-                                        ))}
-                                    </div>
-                                </fieldset>
-
-                                <fieldset className='filter-section'>
-                                    <legend><i className="ri-price-tag-3-line me-2"></i>Special Offers</legend>
+                                    <legend><i className="ri-settings-2-line me-2"></i>Transmission</legend>
                                     <div className="form-check">
-                                        <input type="checkbox" id='likely' className='form-check-input' />
-                                        <label htmlFor="likely" className='form-check-label'>Likely to Sell Out</label>
+                                        <input type="checkbox" id='auto' className='form-check-input' />
+                                        <label htmlFor="auto" className='form-check-label text-white'>Automatic</label>
                                     </div>
                                     <div className="form-check">
-                                        <input type="checkbox" id='discount' className='form-check-input' />
-                                        <label htmlFor="discount" className='form-check-label'>Winter Discount</label>
+                                        <input type="checkbox" id='manual' className='form-check-input' />
+                                        <label htmlFor="manual" className='form-check-label text-white'>Manual</label>
                                     </div>
                                 </fieldset>
 
                                 <fieldset className='filter-section'>
-                                    <legend><i className="ri-translate-2-line me-2"></i>Languages</legend>
+                                    <legend><i className="ri-translate-2-line me-2"></i>Driver Languages</legend>
                                     {["English", "Spanish", "French", "Bangla"].map((lang, i) => (
                                         <div className="form-check" key={i}>
                                             <input type="checkbox" className='form-check-input' id={lang} />
-                                            <label htmlFor={lang} className='form-check-label'>{lang}</label>
+                                            <label htmlFor={lang} className='form-check-label text-white'>{lang}</label>
                                         </div>
                                     ))}
                                 </fieldset>
+
+                                {/* Mobile Apply Button */}
+                                <button 
+                                    className="btn btn-primary w-100 d-lg-none mt-3" 
+                                    onClick={() => setIsFilterOpen(false)}
+                                >
+                                    Apply Filters
+                                </button>
                             </div>
                         </div>
 
+                        {/* Transports Grid */}
                         <div className="col-lg-9">
                             <div className="row">
                                 {transportData.map((vehicle) => (
@@ -163,3 +174,5 @@ function Transports() {
 }
 
 export default Transports;
+
+ 
