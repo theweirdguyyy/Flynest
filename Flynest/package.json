@@ -13,6 +13,7 @@
     "@react-pdf/renderer": "^4.3.0",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
+    "cors": "^2.8.6",
     "file-saver": "^2.0.5",
     "framer-motion": "^12.18.1",
     "react": "^19.1.0",
